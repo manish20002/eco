@@ -13,7 +13,7 @@ export default function footer() {
           </div>
           <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 EfE —
             <div href="#" className="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@EcofeastEssentials</div>
-            <div href="#" className='text-blue-400 ml-1'> *Developed by Manish Thirani</div>
+            <div href="#" className='text-blue-600 ml-1'> *Developed by Manish Thirani</div>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             <a href="https://github.com/manish20002" className="ml-3 text-gray-500">
