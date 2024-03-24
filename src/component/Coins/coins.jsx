@@ -19,7 +19,7 @@ export default function coins() {
               <div class="mt-4">
                 <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">PLATE</h3>
                 <h2 class="text-gray-900 title-font text-lg font-medium">Plates 10x10</h2>
-                <p class="mt-1">$16.00</p>
+                <p class="mt-1">₹10/p</p>
               </div>
             </div>
             <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -29,7 +29,7 @@ export default function coins() {
               <div class="mt-4">
                 <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">BOWL</h3>
                 <h2 class="text-gray-900 title-font text-lg font-medium">Bowls 200ml</h2>
-                <p class="mt-1">$21.15</p>
+                <p class="mt-1">₹12/p</p>
               </div>
             </div>
             <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -39,7 +39,7 @@ export default function coins() {
               <div class="mt-4">
                 <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CUP</h3>
                 <h2 class="text-gray-900 title-font text-lg font-medium">Cups 200ml</h2>
-                <p class="mt-1">$12.00</p>
+                <p class="mt-1">₹5/p</p>
               </div>
             </div>
             <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
@@ -49,7 +49,7 @@ export default function coins() {
               <div class="mt-4">
                 <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">SPOON</h3>
                 <h2 class="text-gray-900 title-font text-lg font-medium">Spoons & Forks</h2>
-                <p class="mt-1">$18.40</p>
+                <p class="mt-1">₹9/p</p>
               </div>
             </div>
           </div>
