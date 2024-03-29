@@ -1,76 +1,92 @@
-.title {
-    font-size: 3rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 2rem;
-    font-weight: 600;
-    color: green;
-    text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-.miss {
-    text-align: justify;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    font-size: 2.5rem;
-    font-weight: 600;
-    color: green;
-}
 
-.miss_pa {
-    text-align: left;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    gap: 0.5rem;
-    font-size: 20px;
-    font-family: "Madimi One";
-    font-weight: 200;
+.ani {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
     font-style: normal;
 }
 
-.value {
-    text-align: justify;
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    font-size: 2.5rem;
-    font-weight: 600;
+.baa {
     color: green;
 }
 
-.value_con {
-    text-align: justify;
-    padding-left: 2rem;
-    padding-right: 2rem;
+.miss_val {
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+    color: green;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pa {
+    font-size: 30px;
+    display: block;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-.value_li {
-    text-align: justify;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    font-size: 1.5rem;
+li {
+    font-size: 25px;
 }
 
 .value_pa {
-    text-align: left;
-    gap: 0.5rem;
-    font-family: "Madimi One";
-    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
     font-style: normal;
-    font-size: 20px;
 }
 
 .title_val {
-    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.team_pa {
-    text-align: left;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    font-size: 20px;
-    font-family: "Madimi One";
-    font-weight: 200;
+.title_V {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    min-height: 100vh;
+}
+
+.miss_pa {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.about_t {
+    color: green;
+    font-size: 45px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
     font-style: normal;
 }

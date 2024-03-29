@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './con.css';
 
 export default function Contactus() {
   return (
@@ -7,7 +8,6 @@ export default function Contactus() {
         <div className="container px-4 py-22 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify.</p>
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
             <div className="flex flex-wrap -m-2">

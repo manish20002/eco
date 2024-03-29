@@ -5,3 +5,20 @@
     left: 0;
     top: 0;
 }
+
+.nav_text {
+    color: #5DAA68;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav_text :hover {
+    color: black;
+}
+.head_txt {
+    color: #FAF1CF;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

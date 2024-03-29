@@ -17,7 +17,7 @@ export default function team() {
                 <div class="flex-grow sm:pl-8">
                   <h2 class="title-font font-medium text-lg text-gray-900">Manish Thirani</h2>
                   <h3 class="text-gray-500 mb-3">Web Developer</h3>
-                  <p class="mb-4">I lead the team at Ecofeastessentials, blending my expertise as a web developer with our shared commitment to sustainable dining solutions.</p>
+                  <p class="a_baa mb-4">I lead the team at Ecofeastessentials, blending my expertise as a web developer with our shared commitment to sustainable dining solutions.</p>
                   <span class="inline-flex">
                     <a href="mailto:foruseuse@gmail.com" class="text-gray-500">
                       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" x="2" y="2" rx="5" ry="5" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
