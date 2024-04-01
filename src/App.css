@@ -2,3 +2,11 @@
   text-align: center;
 }
 
+.App-header {
+  background-color: var(--body_background);
+  color: var(--body_color);
+}
+
+.App-link {
+  color: var(--link_color);
+}

@@ -1,12 +1,9 @@
-#home {
-    margin-bottom: 9.5rem;
-}
 
 .body {
-    height: 100%;
-    width: 100%;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
+    background-color: var(--body_background);
 }
 
 @keyframes slideInLeft {
@@ -20,16 +17,20 @@
 }
 
 .h_txt {
+    display: flex;
+    justify-content: center;
     animation: slideInLeft 2s ease-in 0s 1 normal none;
     padding-top: 6.5rem;
     font-size: 5rem;
     font-family: "Lobster", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: rgba(43, 43, 43, 0.865);
+    color: var(--background_color);
 }
 
 .h_txt2 {
+    display: flex;
+    justify-content: center;
     animation: slideInLeft 3s ease-out 0s 1 normal none;
     color: #5DAA68;
     font-size: 2.5rem;
@@ -39,7 +40,9 @@
 }
 
 .h_txt3{
-    color: black;
+    display: flex;
+    justify-content: center;
+    color: var(--background_color);
     font-weight: 600;
     font-style: oblique;
     display: block;

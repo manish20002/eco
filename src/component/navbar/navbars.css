@@ -1,4 +1,8 @@
+header {
+    background-color: var(--body_background);
+}
 .nav {
+    background-color: var(--body_background);
     align-items: center;
     position: fixed;
     width: 100%;
@@ -7,17 +11,17 @@
 }
 
 .nav_text {
-    color: #5DAA68;
+    color: var(--link_color);
     font-family: "Lobster", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
 .nav_text :hover {
-    color: black;
+    color: green;
 }
 .head_txt {
-    color: #FAF1CF;
+    color: var(--link_color);
     font-family: "Lobster", sans-serif;
     font-weight: 400;
     font-style: normal;

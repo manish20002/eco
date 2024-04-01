@@ -7,6 +7,7 @@ import Nav from './component/navbar/navbar';
 import Footer from './component/Footer/footer';
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

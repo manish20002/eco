@@ -1,8 +1,19 @@
+:root {
+  --body_background:white;
+  --body_color: black;
+  --link_color: #5DAA68;
+}
+
+[data-theme="dark"] {
+  --body_background: #282c34;
+  --body_color: white;
+  --link_color: #5DAA68;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background-color: var(--body_background);
+  color: var(--body_color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -14,5 +25,5 @@ code {
 
 * {
   text-align: center;
-  background-color: #f7f4f076;
+  background-color: var(--background_background);
 }

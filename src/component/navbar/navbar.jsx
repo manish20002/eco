@@ -1,14 +1,15 @@
 import React from 'react'
 import './navbars.css';
 import logo from './images/logoefe.png'
+import Darkmode from '../Darkmode/darkmode';
 
 export default function navbar() {
   return (
     <div>
-      <header className="text-gray-600 body-font">
+      <header className="body-font">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <div>
-            <div className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <div className="flex title-font font-medium items-center mb-4 md:mb-0">
             <img src={logo} alt="logo"  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-12 h-11 text-white rounded-full" viewBox="0 0 24 24" />
               <a href='/Home' className="head_txt ml-3 text-xl">EcofeastEssentials</a>
             </div>
@@ -20,6 +21,7 @@ export default function navbar() {
             <a className="nav-item mr-5" href='contact'>Contact Us</a>
           </nav>
         </div>
+        <Darkmode/>
       </header>
     </div>
   )
