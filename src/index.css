@@ -2,12 +2,14 @@
   --body_background:white;
   --body_color: black;
   --link_color: #5DAA68;
+  --link_c:blue;
 }
 
 [data-theme="dark"] {
   --body_background: #282c34;
   --body_color: white;
   --link_color: #5DAA68;
+  --link_c:rgba(186, 15, 229, 0.884);
 }
 
 body {
@@ -26,4 +28,5 @@ code {
 * {
   text-align: center;
   background-color: var(--background_background);
+  transition: all 0.3s ease-in-out;
 }

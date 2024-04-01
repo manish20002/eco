@@ -1,13 +1,12 @@
 import React, { useEffect } from 'react';
 import './about.css';
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 export default function about() {
   useEffect(() => {
     AOS.init({
-      offset: 200, delay: 2, anchorPlacement: 'top-bottom',duration: 400, easing: 'ease', once: false,  mirror: false,
+      offset: 200, delay: 2, anchorPlacement: 'top-bottom', duration: 400, easing: 'ease', once: false, mirror: false,
     })
     AOS.refresh();
   },)

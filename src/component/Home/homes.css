@@ -3,6 +3,10 @@
     min-height: 100vh;
     display: flex;
     justify-content: center;
+    background-image: url(./images/bgrem.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     background-color: var(--body_background);
 }
 
@@ -46,4 +50,10 @@
     font-weight: 600;
     font-style: oblique;
     display: block;
+}
+
+.bgimg {
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/eco-p3.jpg);
 }

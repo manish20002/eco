@@ -28,6 +28,7 @@
     transition: 0.3s;
 }
 .dark_mode_input {
+    display: flex;
     width: 0;
     height: 0;
     visibility: hidden;
@@ -52,6 +53,7 @@
 }
 .dark_mode_label svg.sun {
     left: 5px;
+    transform: rotate(0deg);
     fill: #fff;
     transition: 0.3s;
 }

@@ -1,6 +1,5 @@
 footer {
-  width: 100;
-  bottom: 0;
+  bottom: 1;
   left: 0;
   text-align: center;
   position: relative;
@@ -11,6 +10,7 @@ footer {
 }
 
 .p_txt {
+  color: var(--body_color);
   font-family: "Aref Ruqaa Ink", serif;
   font-weight: 700;
   font-style: normal;

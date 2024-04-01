@@ -20,8 +20,8 @@ export default function navbar() {
             <a className="nav-item mr-5" href='coins'>Product</a>
             <a className="nav-item mr-5" href='contact'>Contact Us</a>
           </nav>
+          <Darkmode/>
         </div>
-        <Darkmode/>
       </header>
     </div>
   )

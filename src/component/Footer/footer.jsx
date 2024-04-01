@@ -11,8 +11,8 @@ export default function footer() {
             <img src={logo} alt="logo"  stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-12 h-11 text-white rounded-full" viewBox="0 0 24 24" />
             <span className="head_txt ml-3 text-xl">EcofeastEssentials</span>
           </div>
-          <p className="p_txt text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 EFE —
-            <div href="#" className="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@EcofeastEssentials</div>
+          <p className="p_txt text-sm  sm:ml-4 sm:pl-4 sm:border-l-2 sm:py-2 sm:mt-0 mt-4">© 2024 EFE —
+            <div href="#" className="text-green-600 ml-1" rel="noopener noreferrer" target="_blank">@EcofeastEssentials</div>
             <a href="https://www.instagram.com/manish_heroisgreat_20/" className='text-blue-600 ml-1'> *Developed by Manish Thirani</a>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
